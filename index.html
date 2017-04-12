@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+		*{
+			margin:0;
+			padding:0;
+		}
+		ul li{
+			list-style:none;
+		}
+		body{
+			background-image:url("./image/bg.jpg");
+			background-size:cover;
+			background-repeat:repeat-y;
+		}
+		.wrap{
+			width:1245px;
+			margin:auto;
+		}
+		.header .logo{
+			float:left;
+			color:white;
+		}
+		.header .menu{
+			float:right;
+		}
+		.header .menu ul{
+			color:white;
+		}
+
+		.clearfix:after{
+			display:block;
+			content:"";
+			clear:both;
+		}
+		.header .menu ul li{
+			float:left;
+			padding-left:12px;
+			padding-right:12px;
+		}
+		
+		.header .menu ul li.last-child{
+			padding-right:0px;
+		}
+		
+		.sentence{
+			color:white;margin-left:180px; border-top:3px solid #ffffff; margin-top:30px;
+		}
+
+		table tr .HACK{font-size:6em; vertical-align:top;}
+		table tr .Even{font-size:1.5em; vertical-align:top;}
+		table tr .Over{font-size:1.5em; border-top:3px solid #ffffff;}
+		.more{color:white;margin-left:180px; margin-top:30px; font-size:1.5em;}
+
+		.footer p{
+			margin-left:180px;
+			margin-top:50px;
+			color:white;
+			font-size:1.5em;
+		}
+		
+		.footer .link{
+			float:right;
+			border-top:3px solid #ffffff;
+			padding-top:12px;
+			margin-right:180px;
+		}
+		
+		.footer .link ul li {
+			float:left;
+		}
+		.footer .link ul li.between{
+			margin-left:20px;
+			margin-right:20px;
+		}
+
+
+	</style>
+</head>
+<body>
+	<div class="wrap">
+		<div class="header clearfix">
+			<div class="logo">LOGO</div>
+			<div class="menu">
+				<ul class="clearfix">
+					<li>HOME</li>
+					<li>PROFILE</li>
+					<li>WORKS</li>
+					<li>BOARD</li>
+					<li class="last-child">CONTACT</li>
+				</ul>
+			</div>
+		</div>
+		<div>
+			<table class="sentence">
+				<tr>
+					<td class="HACK"><p>HACK</p><p>YOUR LIFE</p></td>
+					<td class="Even"><p> </p><p>Even though many things are getting</p><p>into our lives, we are still grawlling.</p><p>We are LION, LIKE LION</p></td>
+				</tr>
+				<tr>
+					<td class="Over"><p>Over a hump again in our lives</p><p><strong>LIKELION</strong></p></td>
+					<td></td>
+				</tr>
+			</table>
+			<p class="more">more story ↓</p>
+		</div>
+		<div class="footer clearfix">
+			<p>&copy; All right reserved 'LIKELION'</p>
+			<div class="link clearfix">
+				<ul>
+					<li><img src="./image/facebook.png" alt="facebook" /></li>
+					<li class="between"><img src="./image/instagram.png" alt="instagram" /></li>
+					<li><img src="./image/twitter.png" alt="twitter" /></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
